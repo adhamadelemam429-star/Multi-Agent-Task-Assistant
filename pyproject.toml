@@ -1,0 +1,18 @@
+[project]
+name = "multi-agent-ai-task-assistant"
+version = "0.1.0"
+description = "Local multi-agent task assistant with Demo mode, SQLite memory, and safe tool execution"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
